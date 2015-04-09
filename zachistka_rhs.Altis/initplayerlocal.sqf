@@ -6,14 +6,14 @@ _boatlist = execvm "scripts\boatlist.sqf";
 
 #include "addnotes.sqf"
 
-if (player iskindof "rhs_msv_aa") then {
+if (player iskindof "rhs_msv_sergeant") then {
 [player,"AH99"] call BIS_fnc_addCommMenuItem;
 player setVariable ["ghst_helosup", false];
 [player,"A164"] call BIS_fnc_addCommMenuItem;
 player setVariable ["ghst_cassup", false];
 };
 
-if (player iskindof "rhs_msv_marksman") then {
+if (player iskindof "rhs_msv_junior_sergeant") then {
 [player,"UAV"] call BIS_fnc_addCommMenuItem;
 player setVariable ["ghst_uavsup", false];
 [player,"UGV"] call BIS_fnc_addCommMenuItem;
@@ -23,7 +23,7 @@ player setVariable ["ghst_puavsup", false];
 //[player,"Artillery"] call BIS_fnc_addCommMenuItem;
 };
 
-if (player iskindof "rhs_msv_officer_armored") then {
+if (player iskindof "rhs_msv_officer") then {
 [player,"AMMO"] call BIS_fnc_addCommMenuItem;
 player setVariable ["ghst_ammodrop", false];
 [player,"PUAV"] call BIS_fnc_addCommMenuItem;
