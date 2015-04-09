@@ -83,10 +83,10 @@
 //		 Attention! Loading, unloading and unloading cargo on parachute are possible when the ramp is fully open.
 //	New: New vehicles:	C-130J - "C130J_Cargo", "C130J";
 //						Offroad - "C_Offroad_01_F", "B_G_Offroad_01_F";
-//						VAN - "C_Van_01_box_F", "B_G_Van_01_transport_F", "C_Van_01_transport_F".
+//						VAN - "C_Van_01_box_F", "B_G_Van_01_transport_F", "C_Hatchback_01_sport_F".
 //	New: New cargoes:	MRAP (C-130J) - "I_MRAP_03_F", "I_MRAP_03_gmg_F", "I_MRAP_03_hmg_F", "B_MRAP_01_F", "B_MRAP_01_gmg_F", "B_MRAP_01_hmg_F", "O_MRAP_02_F", "O_MRAP_02_gmg_F", "O_MRAP_02_hmg_F";
 //						UGV (C-130J, ZAMAK, HEMTT) - "B_UGV_01_rcws_F", "B_UGV_01_F", "O_UGV_01_rcws_F", "O_UGV_01_F", "I_UGV_01_rcws_F", "I_UGV_01_F";
-//						VAN (C-130J, ZAMAK, HEMTT) - "C_Van_01_box_F", "B_G_Van_01_transport_F", "C_Van_01_transport_F";
+//						VAN (C-130J, ZAMAK, HEMTT) - "C_Van_01_box_F", "B_G_Van_01_transport_F", "C_Hatchback_01_sport_F";
 //						Offroad (C-130J, ZAMAK, HEMTT) - "C_Offroad_01_F", "B_G_Offroad_01_F", "B_G_Offroad_01_armed_F";
 //						SUV (C-130J, HEMTT) - "C_SUV_01_F";
 //						Hatchback (C-130J, ZAMAK, HEMTT, Mohawk) - "C_Hatchback_01_F";

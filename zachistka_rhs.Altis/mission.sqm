@@ -54,7 +54,10 @@ class Mission
 		"rhs_c_heavyweapons",
 		"rhs_c_a2port_air",
 		"rhs_c_trucks",
-		"rhs_c_weapons"
+		"rhs_c_weapons",
+		"rhs_c_a2port_car",
+		"rhs_c_cars",
+		"rhs_c_a3retex"
 	};
 	addOnsAuto[]=
 	{
@@ -77,8 +80,8 @@ class Mission
 		"A3_Soft_F_TruckHeavy",
 		"a3_soft_f_gamma_truckheavy",
 		"A3_Soft_F_Quadbike",
-		"A3_Soft_F_Truck",
 		"rhs_c_a2port_air",
+		"rhs_c_trucks",
 		"a3_map_altis"
 	};
 	randomSeed=9114063;
@@ -1276,223 +1279,223 @@ class Mission
 		};
 		class Item31
 		{
-			position[]={19955.605,60.300999,11448.481};
-			azimut=330;
-			id=84;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item32
-		{
-			position[]={21218.256,23.785717,7099.8789};
-			azimut=330;
-			id=85;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item33
-		{
-			position[]={16745.24,12.288042,12507.017};
-			azimut=330;
-			id=86;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item34
-		{
-			position[]={16876.074,12.703964,15453.585};
-			azimut=330;
-			id=87;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item35
-		{
-			position[]={20771.85,36.629036,16646.902};
-			azimut=330;
-			id=88;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item36
-		{
-			position[]={23378.844,12.81501,19814.592};
-			azimut=330;
-			id=89;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item37
-		{
-			position[]={14214.95,18.280586,18317.51};
-			azimut=330;
-			id=90;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item38
-		{
-			position[]={12014.52,27.659746,15828.158};
-			azimut=330;
-			id=91;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item39
-		{
-			position[]={9013.2305,111.68197,15730.227};
-			azimut=330;
-			id=92;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item40
-		{
-			position[]={6791.4922,41.138596,15568.275};
-			azimut=330;
-			id=93;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item41
-		{
-			position[]={5009.7607,17.119915,14426.882};
-			azimut=330;
-			id=94;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item42
-		{
-			position[]={4010.0447,25.713118,12597.607};
-			azimut=330;
-			id=95;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item43
-		{
-			position[]={9218.1631,17.890179,12111.876};
-			azimut=330;
-			id=96;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item44
-		{
-			position[]={11828.114,12.544617,14148.556};
-			azimut=330;
-			id=97;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item45
-		{
-			position[]={5784.4829,222.82703,20087.93};
-			azimut=330;
-			id=98;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item46
-		{
-			position[]={11210.306,182.41,8719.2051};
-			azimut=330;
-			id=99;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item47
-		{
-			position[]={6183.6206,26.597158,15075.948};
-			azimut=330;
-			id=100;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item48
-		{
-			position[]={3766.2065,12.355403,13485.587};
-			azimut=330;
-			id=101;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item49
-		{
-			position[]={25707.717,20.563915,21381.713};
-			azimut=330;
-			id=102;
-			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
-			skill=0.2;
-			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
-		};
-		class Item50
-		{
 			position[]={14244.27,18.025503,15866.09};
 			azimut=210;
-			id=103;
+			id=84;
 			side="EMPTY";
 			vehicle="O_Quadbike_01_F";
 			skill=0.2;
 			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
 		};
-		class Item51
+		class Item32
 		{
 			position[]={14660.218,17.91,16739.662};
 			azimut=44.2047;
-			id=104;
+			id=85;
 			side="EMPTY";
 			vehicle="Land_HelipadRescue_F";
 			skill=0.46666664;
 		};
-		class Item52
+		class Item33
 		{
 			position[]={14247.206,20.125673,16231.814};
 			azimut=-53.072136;
-			id=105;
+			id=86;
 			side="EMPTY";
 			vehicle="RHS_Mi8mt_vvsc";
 			skill=1;
 			text="uh80_1";
 			init="nul = [this,5,false] execfsm ""scripts\ghst_vehrespawn.fsm"";";
+		};
+		class Item34
+		{
+			position[]={12014.57,27.654148,15827.517};
+			azimut=-27.448025;
+			id=87;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item35
+		{
+			position[]={9012.8691,111.62803,15728.807};
+			azimut=-27.448025;
+			id=88;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item36
+		{
+			position[]={6792.626,41.161915,15570.82};
+			azimut=-27.448025;
+			id=89;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item37
+		{
+			position[]={6185.1445,26.610649,15075.599};
+			azimut=-27.448025;
+			id=90;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item38
+		{
+			position[]={5009.4902,17.083544,14428.638};
+			azimut=-27.448025;
+			id=91;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item39
+		{
+			position[]={3770.6328,12.37452,13487.192};
+			azimut=-27.448025;
+			id=92;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item40
+		{
+			position[]={4009.4341,25.690376,12600.131};
+			azimut=-27.448025;
+			id=93;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item41
+		{
+			position[]={9218.6924,17.806168,12119.911};
+			azimut=-27.448025;
+			id=94;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item42
+		{
+			position[]={11826.837,12.545398,14148.051};
+			azimut=-27.448025;
+			id=95;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item43
+		{
+			position[]={11209.003,182.41,8720.4814};
+			azimut=-27.448025;
+			id=96;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item44
+		{
+			position[]={21219.229,23.741558,7097.335};
+			azimut=-27.448025;
+			id=97;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item45
+		{
+			position[]={19951.811,60.30056,11451.246};
+			azimut=-27.448025;
+			id=98;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item46
+		{
+			position[]={16740.059,12.105864,12507.177};
+			azimut=-27.448025;
+			id=99;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item47
+		{
+			position[]={16875.98,12.70205,15453.56};
+			azimut=-27.448025;
+			id=100;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item48
+		{
+			position[]={20771.043,36.576488,16645.889};
+			azimut=-27.448025;
+			id=101;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item49
+		{
+			position[]={23380.824,12.823292,19814.166};
+			azimut=-27.448025;
+			id=102;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item50
+		{
+			position[]={25710.561,20.580278,21383.041};
+			azimut=-27.448025;
+			id=103;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item51
+		{
+			position[]={5781.981,222.7037,20087.416};
+			azimut=-27.448025;
+			id=104;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
+		};
+		class Item52
+		{
+			position[]={14212.331,18.303547,18318.799};
+			azimut=-27.448025;
+			id=105;
+			side="EMPTY";
+			vehicle="rhs_gaz66o_msv";
+			skill=0.60000002;
+			init="handle = [this, 30, 30, 0, false, false, ""this addEventHandler ['GetIn', {_this execVM 'basetrans.sqf'}];""] execVM ""vehicle.sqf""; this addEventHandler [""GetIn"", {_this execVM ""basetrans.sqf""}];";
 		};
 	};
 	class Markers
