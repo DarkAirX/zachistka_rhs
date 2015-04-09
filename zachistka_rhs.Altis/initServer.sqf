@@ -10,7 +10,6 @@ call ghst_fnc_acquirelocations;
 //Enemy Unit list
 call ghst_fnc_unitlist;
 
-ghst_civcars = [(getmarkerpos "center"),3000,40,true,false,EAST] execvm "functions\spawn\fn_civcars.sqf";
 
 [["AA1","AA2","AA3","AA4"],"rhs_zsu234_aa",(random 360),false] spawn ghst_fnc_basedef;
 
