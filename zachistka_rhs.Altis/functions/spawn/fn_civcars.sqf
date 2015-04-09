@@ -12,7 +12,7 @@ _showmarks = _this select 4;//show location markers
 _side = _this select 5;//side for mines to be known
 
 //Vehicle list - edit as needed//
-_vehcivlist = ["C_Offroad_01_repair_F","C_Van_01_fuel_F","C_Offroad_01_F","C_Quadbike_01_F","C_SUV_01_F","C_Van_01_transport_f"];
+_vehcivlist = ["C_Offroad_01_repair_F","C_Van_01_fuel_F","C_Offroad_01_F","C_Quadbike_01_F","C_SUV_01_F","C_Hatchback_01_sport_F"];
 
 _iedlist = ["Sh_120mm_HE","Bo_Mk82","Sh_155mm_AMOS","Sh_120mm_HE","Bo_GBU12_LGB","Sh_82mm_AMOS","Bo_Mk82"];
 
