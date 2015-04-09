@@ -15,11 +15,11 @@ case 0: {
 	
 	ghst_side = WEST;
 
-	ghst_menlist = ["rhsusf_army_ucp_squadleader","rhsusf_army_ucp_sniper","rhsusf_army_ucp_marksman","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_javelin","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_aa","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_autorifleman","rhsusf_army_ucp_sniper","rhsusf_army_ucp_marksman","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_javelin","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_aa","rhsusf_army_ucp_teamleader","rhsusf_socom_marsoc_spotter","rhsusf_army_ucp_marksman"];
+	ghst_menlist = ["rhsusf_army_ucp_squadleader","rhsusf_army_ucp_sniper","rhsusf_army_ucp_sniper","rhsusf_socom_marsoc_spotter","rhsusf_army_ucp_marksman","rhsusf_army_ucp_marksman","rhsusf_army_ucp_marksman","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_javelin","rhsusf_army_ucp_javelin","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_aa","rhsusf_army_ucp_aa","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_autorifleman"];
 
-	ghst_diverlist = ["rhsusf_army_ucp_rifleman","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_rifleman","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_rifleman"]; //поставил вместо дайвером ванильных пиндосов простых
+	ghst_diverlist = ["rhsusf_army_ucp_sniper","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_teamleader","rhsusf_socom_marsoc_spotter","rhsusf_army_ucp_marksman","rhsusf_army_ucp_riflemanat"]; //поставил вместо дайвером ванильных пиндосов простых
 	
-	ghst_specopslist = ["rhsusf_usmc_marpat_d_squadleader","rhsusf_usmc_marpat_d_sniper","rhsusf_usmc_marpat_d_marksman","rhsusf_usmc_marpat_d_javelin","rhsusf_usmc_marpat_d_teamleader","rhsusf_usmc_marpat_d_riflemanat","rhsusf_usmc_marpat_d_riflemanat","rhsusf_usmc_marpat_d_autorifleman_m249","rhsusf_usmc_marpat_d_stinger","rhsusf_socom_marsoc_spotter","rhsusf_usmc_marpat_d_machinegunner","rhsusf_usmc_marpat_d_sniper","rhsusf_usmc_marpat_d_marksman"];
+	ghst_specopslist = ["rhsusf_usmc_marpat_d_squadleader","rhsusf_usmc_marpat_d_sniper","rhsusf_usmc_marpat_d_sniper","rhsusf_usmc_marpat_d_marksman","rhsusf_usmc_marpat_d_marksman","rhsusf_usmc_marpat_d_javelin","rhsusf_usmc_marpat_d_teamleader","rhsusf_usmc_marpat_d_riflemanat","rhsusf_usmc_marpat_d_riflemanat","rhsusf_usmc_marpat_d_autorifleman_m249","rhsusf_usmc_marpat_d_machinegunner","rhsusf_usmc_marpat_d_stinger","rhsusf_socom_marsoc_spotter"];
 
 	ghst_crewmenlist = ["rhsusf_army_ucp_crewman"];
 	
