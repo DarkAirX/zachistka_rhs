@@ -1,6 +1,6 @@
 //Automatically adds various actions to specified vehicles
 
-//ghst_Supported_Vehicles_All = ["B_Heli_Light_01_F","B_Heli_Light_01_armed_F","O_Heli_Light_02_F","O_Heli_Light_02_unarmed_F","RHS_Mi8mt_vvsc","B_Heli_Transport_01_camo_F","I_Heli_Transport_02_F","I_Heli_light_03_F","I_Heli_light_03_unarmed_F"];
+//ghst_Supported_Vehicles_All = ["B_Heli_Light_01_F","B_Heli_Light_01_armed_F","O_Heli_Light_02_F","O_Heli_Light_02_unarmed_F","B_Heli_Transport_01_F","B_Heli_Transport_01_camo_F","I_Heli_Transport_02_F","I_Heli_light_03_F","I_Heli_light_03_unarmed_F"];
 ghst_boat_Array = [];
 ghst_Supported_Vehicles_Boat = ["B_Boat_Transport_01_F","B_Lifeboat","B_Boat_Armed_01_minigun_F","I_Boat_Transport_01_F","I_Boat_Armed_01_minigun_F","O_Boat_Transport_01_F","O_Lifeboat","O_Boat_Armed_01_minigun_F"];
 ghst_AmmoBoxes_Array = [];

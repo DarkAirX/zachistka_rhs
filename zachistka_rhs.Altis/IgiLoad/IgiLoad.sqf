@@ -158,7 +158,7 @@ if (isnil "IL_Variables") then
 	IL_Supported_Cargo20 = ["Land_Cargo20_blue_F", "Land_Cargo20_brick_red_F", "Land_Cargo20_cyan_F", "Land_Cargo20_grey_F", "Land_Cargo20_light_blue_F", "Land_Cargo20_light_green_F", "Land_Cargo20_military_green_F", "Land_Cargo20_orange_F", "Land_Cargo20_red_F", "Land_Cargo20_sand_F", "Land_Cargo20_white_F", "Land_Cargo20_yellow_F"];
 	IL_Supported_Dixon = ["B_APC_Wheeled_01_cannon_F", "I_APC_Wheeled_03_cannon_F", "O_APC_Wheeled_02_rcws_F"];
 	IL_Supported_Dixon1 = ["B_MBT_01_TUSK_F", "B_APC_Tracked_01_CRV_F", "I_APC_tracked_03_cannon_F",  "O_APC_Tracked_02_cannon_F", "O_MBT_02_cannon_F", "I_MBT_03_cannon_F", "B_MBT_01_cannon_F"];
-	IL_Supported_Dixon2 = ["B_Heli_Light_01_F", "B_Heli_Light_01_armed_F","RHS_Mi8mt_vvsc", "B_Heli_Attack_01_F", "B_Heli_Transport_01_camo_F", "O_Heli_Attack_02_F", "O_Heli_Attack_02_black_F", "I_Heli_light_03_F"];
+	IL_Supported_Dixon2 = ["B_Heli_Light_01_F", "B_Heli_Light_01_armed_F", "B_Heli_Transport_01_F", "B_Heli_Attack_01_F", "B_Heli_Transport_01_camo_F", "O_Heli_Attack_02_F", "O_Heli_Attack_02_black_F", "I_Heli_light_03_F"];
 
 
 	//TODO
@@ -483,7 +483,7 @@ if (isnil "IL_Procedures") then
 		if (_obj_type in IL_Supported_Dixon2) then
 		{
 			_obj setVariable["slots", 6, true];
-			if (_obj_type in ["RHS_Mi8mt_vvsc", "B_Heli_Light_01_armed_F", "I_Heli_light_03_F"]) then
+			if (_obj_type in ["B_Heli_Transport_01_F", "B_Heli_Light_01_armed_F", "I_Heli_light_03_F"]) then
 			{
 				_obj setVariable["zload_cargo", 1.5, true];
 				_obj setVariable["cargo_offset", 2.4, true];
