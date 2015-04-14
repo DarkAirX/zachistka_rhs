@@ -57,7 +57,9 @@ class Mission
 		"rhs_c_weapons",
 		"rhs_c_a2port_car",
 		"rhs_c_cars",
-		"rhs_c_a3retex"
+		"rhs_c_a3retex",
+		"A3_Air_F_EPC_Plane_CAS_01",
+		"A3_Air_F_Beta_Heli_Attack_02"
 	};
 	addOnsAuto[]=
 	{
@@ -854,11 +856,11 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={14254.041,19.87398,16248.769};
+			position[]={14254.041,19.868311,16249.241};
 			azimut=-47.6945;
 			id=46;
 			side="EMPTY";
-			vehicle="rhs_weapons_crate_ak_ammo_545x39_standard";
+			vehicle="rhs_weapons_crate_ak_standard";
 			leader=1;
 			skill=0.60000002;
 			text="VAS1";
@@ -866,11 +868,11 @@ class Mission
 		};
 		class Item9
 		{
-			position[]={14259.203,19.894308,16245.738};
+			position[]={14258.964,19.898624,16245.458};
 			azimut=-47.6945;
 			id=47;
 			side="EMPTY";
-			vehicle="rhs_weapons_crate_ak_ammo_545x39_standard";
+			vehicle="rhs_weapons_crate_ak_standard";
 			leader=1;
 			skill=0.60000002;
 			text="VAS2";
@@ -878,11 +880,11 @@ class Mission
 		};
 		class Item10
 		{
-			position[]={14264.258,19.920588,16242.178};
+			position[]={14263.896,19.926308,16241.857};
 			azimut=-47.6945;
 			id=48;
 			side="EMPTY";
-			vehicle="rhs_weapons_crate_ak_ammo_545x39_standard";
+			vehicle="rhs_weapons_crate_ak_standard";
 			leader=1;
 			skill=0.60000002;
 			text="VAS3";
@@ -1109,13 +1111,13 @@ class Mission
 		};
 		class Item33
 		{
-			position[]={14247.206,20.125673,16231.814};
-			azimut=-53.072136;
+			position[]={14247.401,20.105911,16233.335};
+			azimut=-47.6297;
 			id=71;
 			side="EMPTY";
-			vehicle="RHS_Mi8mt_vvsc";
+			vehicle="RHS_Mi24Vt_vvs";
 			skill=1;
-			text="uh80_1";
+			text="ch67_1";
 			init="nul = [this,5,false] execfsm ""scripts\ghst_vehrespawn.fsm"";";
 		};
 		class Item34
