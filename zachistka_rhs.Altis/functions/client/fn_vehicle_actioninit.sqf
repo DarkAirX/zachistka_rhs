@@ -4,7 +4,7 @@
 ghst_boat_Array = [];
 ghst_Supported_Vehicles_Boat = ["B_Boat_Transport_01_F","B_Lifeboat","B_Boat_Armed_01_minigun_F","I_Boat_Transport_01_F","I_Boat_Armed_01_minigun_F","O_Boat_Transport_01_F","O_Lifeboat","O_Boat_Armed_01_minigun_F"];
 ghst_AmmoBoxes_Array = [];
-ghst_Supported_AmmoBoxes = ["Box_NATO_AmmoVeh_F","rhs_weapons_crate_ak_ammo_545x39_standard","B_Slingload_01_Ammo_F","B_Slingload_01_Cargo_F"];
+ghst_Supported_AmmoBoxes = ["Box_NATO_AmmoVeh_F","rhs_weapons_crate_ak_standard","B_Slingload_01_Ammo_F","B_Slingload_01_Cargo_F"];
 ghst_bobcat_array = [];
 ghst_support_vehicles_bobcat = ["B_APC_Tracked_01_CRV_F"];
 //тут надо глянуть
