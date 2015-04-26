@@ -123,19 +123,19 @@ for "_o" from 1 to (_numobjs) do {
 			};
 			case "ZSU_AA":
 			{
-			[_random_pos,_radarray,"RHS_M2A3_BUSKIII_wd",false,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
+			[_random_pos,_radarray,"rhs_p37",true,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
 			};
 			case "ZSU_AA2":
 			{
-			[_random_pos,_radarray,"B_MBT_01_mlrs_F",false,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
+			[_random_pos,_radarray,"B_MBT_01_mlrs_F",true,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
 			};
 			case "ARTY":
 			{
-			[_random_pos,_radarray,"rhsusf_m109_usarmy",false,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
+			[_random_pos,_radarray,"rhs_prv13",true,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
 			};
 			case "ARTY2":
 			{
-			[_random_pos,_radarray,"B_MBT_01_TUSK_F",false,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
+			[_random_pos,_radarray,"B_MBT_01_TUSK_F",true,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
 			};
 			case "comtower":
 			{
@@ -149,7 +149,7 @@ for "_o" from 1 to (_numobjs) do {
 			private ["_devices","_devicesel"];
 			_devices = ["rhsusf_rg33_d","Land_Device_assembled_F","Land_Device_disassembled_F"];
 			_devicesel = _devices call BIS_fnc_selectRandom;
-			[_random_pos,_radarray,_devicesel,false,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
+			[_random_pos,_radarray,_devicesel,true,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
 			};
 		};
 	sleep 3;
