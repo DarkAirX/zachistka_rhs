@@ -49,7 +49,7 @@ class CfgCommunicationMenu
 	{
 		text = "Ammo Drop"; // Text displayed in the menu and in a notification
 		submenu = ""; // Submenu opened upon activation
-		expression = "ghst_ammodrop = [player,(getmarkerpos ""ghst_player_support""),""RHS_Mi8mt_Cargo_vvsc"",""O_supplyCrate_F"",150,30] spawn ghst_fnc_ammodrop;"; // Code executed upon activation (ignored when the submenu is not empty)
+		expression = "ghst_ammodrop = [player,(getmarkerpos ""ghst_player_support""),""RHS_Mi8mt_Cargo_vvsc"",""rhs_weapons_crate_ak_ammo_545x39_standard"",150,30] spawn ghst_fnc_ammodrop;"; // Code executed upon activation (ignored when the submenu is not empty)
 		icon = "\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\supplydrop_ca.paa"; // Icon displayed permanently next to the command menu
 		cursor = "\a3\Ui_f\data\IGUI\Cfg\Cursors\iconCursorSupport_ca.paa"; // Custom cursor displayed when the item is selected
 		enable = "1"; // Simple expression condition for enabling the item
