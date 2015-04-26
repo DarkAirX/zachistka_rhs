@@ -123,7 +123,7 @@ for "_o" from 1 to (_numobjs) do {
 			};
 			case "ZSU_AA":
 			{
-			[_random_pos,_radarray,"rhs_p37",true,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
+			[_random_pos,_radarray,"rhs_p37",false,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
 			};
 			case "ZSU_AA2":
 			{
@@ -131,7 +131,7 @@ for "_o" from 1 to (_numobjs) do {
 			};
 			case "ARTY":
 			{
-			[_random_pos,_radarray,"rhs_prv13",true,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
+			[_random_pos,_radarray,"rhs_prv13",false,(_PARAM_AISkill/10),_locselname,[true,"ColorRed",[200,200]],_ghst_side] call ghst_fnc_randomloc;
 			};
 			case "ARTY2":
 			{
