@@ -60,7 +60,10 @@ class Mission
 		"rhs_c_a3retex",
 		"A3_Air_F_EPC_Plane_CAS_01",
 		"A3_Air_F_Beta_Heli_Attack_02",
-		"rhsusf_c_troops"
+		"rhsusf_c_troops",
+		"RHS_US_A2_AirImport",
+		"A3_Armor_F_EPC_MBT_01",
+		"A3_Armor_F_Slammer"
 	};
 	addOnsAuto[]=
 	{
@@ -856,7 +859,7 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={14254.041,19.868311,16249.241};
+			position[]={14255.087,19.870554,16248.823};
 			azimut=-47.6945;
 			id=46;
 			side="EMPTY";
@@ -880,7 +883,7 @@ class Mission
 		};
 		class Item10
 		{
-			position[]={14263.896,19.926308,16241.857};
+			position[]={14251.438,19.837261,16252.407};
 			azimut=-47.6945;
 			id=48;
 			side="EMPTY";
@@ -1032,7 +1035,7 @@ class Mission
 		};
 		class Item25
 		{
-			position[]={14173.986,19.58,16273.615};
+			position[]={14174.194,19.58,16273.928};
 			azimut=50;
 			id=63;
 			side="EMPTY";
@@ -1042,7 +1045,7 @@ class Mission
 		};
 		class Item26
 		{
-			position[]={14176.337,19.581783,16270.935};
+			position[]={14176.596,19.582129,16271.194};
 			azimut=50;
 			id=64;
 			side="EMPTY";
@@ -1052,7 +1055,7 @@ class Mission
 		};
 		class Item27
 		{
-			position[]={14188.316,19.590454,16259.828};
+			position[]={14188.785,19.59,16260.088};
 			azimut=50;
 			id=65;
 			side="EMPTY";
@@ -1062,7 +1065,7 @@ class Mission
 		};
 		class Item28
 		{
-			position[]={14185.627,19.59,16262.277};
+			position[]={14185.939,19.59,16262.435};
 			azimut=50;
 			id=66;
 			side="EMPTY";
