@@ -15,17 +15,17 @@ case 0: {
 	
 	ghst_side = WEST;
 
-	ghst_menlist = ["rhsusf_army_ucp_squadleader","rhsusf_army_ucp_sniper","rhsusf_army_ucp_sniper","rhsusf_socom_marsoc_spotter","rhsusf_army_ucp_marksman","rhsusf_army_ucp_marksman","rhsusf_army_ucp_marksman","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_javelin","rhsusf_army_ucp_javelin","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_aa","rhsusf_army_ucp_aa","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_autorifleman"];
+	ghst_menlist = ["rhsusf_army_ucp_teamleader","rhsusf_army_ucp_teamleader","rhsusf_army_ucp_autorifleman","rhsusf_army_ucp_squadleader","rhsusf_army_ucp_squadleader","rhsusf_army_ucp_marksman","rhsusf_army_ucp_marksman","rhsusf_army_ucp_sniper","rhsusf_army_ucp_sniper","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_javelin","rhsusf_army_ucp_javelin","rhsusf_army_ucp_aa","rhsusf_army_ucp_aa","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_machinegunner","rhsusf_army_ucp_machinegunner","rhsusf_army_ucp_autorifleman"];
 
-	ghst_diverlist = ["rhsusf_army_ucp_sniper","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_teamleader","rhsusf_socom_marsoc_spotter","rhsusf_army_ucp_marksman","rhsusf_army_ucp_riflemanat"]; //поставил вместо дайвером ванильных пиндосов простых
+	ghst_diverlist = ["rhsusf_army_ucp_teamleader","rhsusf_army_ucp_marksman","rhsusf_army_ucp_machinegunner","rhsusf_army_ucp_grenadier","rhsusf_army_ucp_riflemanat","rhsusf_army_ucp_riflemanat"]; //поставил вместо дайвером ванильных пиндосов простых
 	
-	ghst_specopslist = ["rhsusf_usmc_marpat_d_squadleader","rhsusf_usmc_marpat_d_sniper","rhsusf_usmc_marpat_d_sniper","rhsusf_usmc_marpat_d_marksman","rhsusf_usmc_marpat_d_marksman","rhsusf_usmc_marpat_d_javelin","rhsusf_usmc_marpat_d_teamleader","rhsusf_usmc_marpat_d_riflemanat","rhsusf_usmc_marpat_d_riflemanat","rhsusf_usmc_marpat_d_autorifleman_m249","rhsusf_usmc_marpat_d_machinegunner","rhsusf_usmc_marpat_d_stinger","rhsusf_socom_marsoc_spotter"];
+	ghst_specopslist = ["rhsusf_usmc_marpat_wd_teamleader","rhsusf_usmc_marpat_wd_teamleader","rhsusf_usmc_marpat_wd_squadleader","rhsusf_usmc_marpat_wd_squadleader","rhsusf_usmc_marpat_wd_machinegunner","rhsusf_usmc_marpat_wd_machinegunner","rhsusf_usmc_marpat_wd_autorifleman_m249","rhsusf_usmc_marpat_wd_autorifleman_m249","rhsusf_usmc_marpat_wd_marksman","rhsusf_usmc_marpat_wd_marksman","rhsusf_usmc_marpat_wd_sniper","rhsusf_usmc_marpat_wd_sniper","rhsusf_usmc_marpat_wd_stinger","rhsusf_usmc_marpat_wd_stinger","rhsusf_usmc_marpat_wd_javelin","rhsusf_usmc_marpat_wd_javelin","rhsusf_usmc_marpat_wd_grenadier","rhsusf_usmc_marpat_wd_grenadier","rhsusf_usmc_marpat_wd_riflemanat","rhsusf_usmc_marpat_wd_riflemanat"];
 
 	ghst_crewmenlist = ["rhsusf_army_ucp_crewman"];
 	
-	ghst_patrolvehlist = ["rhsusf_m1025_d_m2","RHS_M2A2","RHS_M6","rhsusf_m1a1aimd_usarmy","rhsusf_m113d_usarmy","rhsusf_rg33_m2_d","RHS_M2A3_BUSKIII","rhsusf_m1a2sep1tuskid_usarmy"];
+	ghst_patrolvehlist = ["rhsusf_m1025_w_m2","rhsusf_m1025_w_mk19","rhsusf_m113_usarmy","RHS_M2A3_wd","RHS_M2A3_BUSKIII_wd","RHS_M6_wd","rhsusf_m1a1aimwd_usarmy","rhsusf_m1a1aim_tuski_wd"];
 
-	ghst_convoyvehlist = ["RHS_M2A3_BUSKIII","rhsusf_M1078A1P2_B_d_fmtv_usarmy","rhsusf_m1025_d_Mk19","rhsusf_M1083A1P2_B_d_fmtv_usarmy","RHS_M2A2","RHS_M6","RHS_M2A3_BUSKIII","rhsusf_rg33_m2_d","RHS_M2A2","rhsusf_m1a1fep_d"];
+	ghst_convoyvehlist = ["rhsusf_M1083A1P2_B_wd_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy","rhsusf_m1025_w_m2","rhsusf_m1025_w_mk19","rhsusf_m113_usarmy","RHS_M2A3_wd","RHS_M2A3_BUSKIII_wd","RHS_M6_wd","rhsusf_m1a1aimwd_usarmy","rhsusf_m1a1aim_tuski_wd"];
 
 	ghst_staticlist = ["RHS_M2StaticMG_D","B_Mortar_01_F"]; //тут миномет ванильный
 	
@@ -33,7 +33,7 @@ case 0: {
 	
 	ghst_transport_heli_list = "RHS_C130J";
 	
-	ghst_attack_heli_list = "RHS_AH64D";
+	ghst_attack_heli_list = "RHS_AH1Z_wd";
 	
 	if (_PARAM_SU35 == 0) then {
 	ghst_patrol_air_list = ["RHS_A10","RHS_A10"];
@@ -41,7 +41,7 @@ case 0: {
 	ghst_patrol_air_list = ["RHS_A10"];
 	};
 	
-	ghst_commanderlist = ["rhsusf_army_ucp_driver","rhsusf_usmc_fr_marpat_d_light","rhsusf_usmc_fr_marpat_d_sniper"];
+	ghst_commanderlist = ["rhsusf_army_ucp_driver","rhsusf_army_ucp_riflemanl","rhsusf_usmc_marpat_wd_rifleman_light"];
 	
 	ghst_ammobox_list = "Box_NATO_Ammo_F";
 	
