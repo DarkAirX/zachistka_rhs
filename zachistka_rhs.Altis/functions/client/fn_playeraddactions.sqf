@@ -45,3 +45,4 @@ player addAction [format ["<t size='1.2' shadow='2' color='#B22222'>Detonate Sat
 }, [], 1, false, true, "","'SatchelCharge_Remote_Mag' in magazines _target and vehicle _this == _target"];
 
 //this addaction ["Open Virtual Arsenal", { ["Open",true] call BIS_fnc_arsenal; }];  
+player addaction ["<t size='1.4' shadow='2' color='#FF8C00'>Virtual Arsenal</t>", { ["Open",true] call BIS_fnc_arsenal; }, [], 1, false, true, "","alive _target and (getposatl player distance getposatl base) < 150"];
